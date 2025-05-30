@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@font-face {
+  font-family: sundown;
+  src: url('./assets/NeueHaasDisplay-Roman.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  font-family: sundown;
+  overflow-x: hidden;
+  
+}
+
+p{
+  font-weight: 900;
+}
+
+.elem:hover .overlay{
+  top:0;
+
+}
+
+.menuitem:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.419);
+  cursor: pointer;
+}
